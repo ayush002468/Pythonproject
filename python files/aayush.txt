@@ -1,0 +1,33 @@
+Task implementation using flask , Mongodb , python
+
+Steps involved
+
+1.) Created a blank python project in pycharm
+
+2.) installed MongoDb
+
+3.) for flask imported flask lib
+
+4.) for database creation created a database naming api and collection naming appoinment.
+
+5.) after that created a cluster on mongo db server with my name 
+
+6.) next step in that cluster clicked on connect option and choosen the option connect to application option.
+
+7.) connect to application option gives a url which i pasted in the code which is a mongodb connection string.
+
+8.) initialised mongoengine
+
+9.) created a class named appoinment which would act as a collection and will push the data to that collection
+
+10.) for converting it to json made a property 
+
+11.) created api requests for get and post method which will populate the data in the db.
+
+12.) using post man inserted the data using post method using url(http://127.0.0.1:5000/Api/db_populate)
+
+13.) using postman used get method to get the data using url(http://127.0.0.1:5000/Api/Appointment)
+
+note- there was some error in connection string. connection gets established but at the same time gets closed.
+
+note- I had to use date only format but as i am new to mongo so tried using through normal intField.
